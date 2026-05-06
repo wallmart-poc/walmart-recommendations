@@ -1,0 +1,3 @@
+# Product recommendation gRPC service.
+# Discovery-side feature shown on product detail pages.
+*   @wallmart-poc/catalog-discovery
