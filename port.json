@@ -1,0 +1,15 @@
+{
+  "identifier": "walmart-recommendations",
+  "title": "Recommendation Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "medium",
+    "slack_channel": "#catalog-discovery"
+  },
+  "relations": {
+    "depends_on": [
+      "walmart-product-catalog"
+    ]
+  }
+}
