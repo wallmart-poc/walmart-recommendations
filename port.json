@@ -1,0 +1,19 @@
+{
+  "identifier": "walmart-recommendations",
+  "title": "Recommendation Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "medium",
+    "slack_channel": "#catalog-discovery",
+    "type": "grpc",
+    "tier": "backend",
+    "language": "Python",
+    "region": ["us-east-1"]
+  },
+  "relations": {
+    "depends_on": [
+      "walmart-product-catalog"
+    ]
+  }
+}
