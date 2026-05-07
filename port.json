@@ -9,7 +9,7 @@
     "type": "grpc",
     "tier": "backend",
     "language": "Python",
-    "region": ["us-east-1", "eu-west-1"]
+    "region": ["us-east-1"]
   },
   "relations": {
     "depends_on": [
